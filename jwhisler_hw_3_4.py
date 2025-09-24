@@ -23,7 +23,7 @@ try:
     if alpha_words:
       max_len = max(len(word) for word in alpha_words)
       # Return all words with max length
-      longest_words = [word for word in alpha_words if len(word) == max_len]
+      longest_words = list({word for word in alpha_words if len(word) == max_len})
 except Exception as e:
   print(f'Failure to find file, {e}')
 
