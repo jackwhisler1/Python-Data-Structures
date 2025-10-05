@@ -46,3 +46,6 @@ while order.lower() != 'done':
             print("You did not order anything.")
     else:
         print("Sorry, I don't think we carry that.")
+
+y = {[1], [2]}
+print(y)
