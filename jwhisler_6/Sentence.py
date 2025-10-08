@@ -10,13 +10,14 @@ Homework Problem # 6
 Description: Class library for Sentence that evaluates and manipulates an English sentence.
 """
 import string
+import random
 
 
 class Sentence:
-    """"""
+    """Represents an English sentence for basic evaluation and manipulation."""
 
     def __init__(self, sentence_str=''):
-        """"""
+        """Initialize the sentence, remove punctuation, and store as a list."""
         words_list = sentence_str.strip(string.punctuation).split(' ')
         self.__sentence = words_list
 
@@ -37,19 +38,27 @@ class Sentence:
     def set_word(self, index, new_word):
         """Changes the word at a given index location in sentence to a new word"""
         if index >= len(self.__sentence):
+            # Append new word if index is beyond current list
             self.__sentence.append(new_word)
         else:
             self.__sentence[index] = new_word
 
     def scramble(self):
-        """"""
+        """Returns a scrambled list of all the words in a sentence"""
+        scrambled = self.__sentence[:]
+        random.shuffle(scrambled)
+        return scrambled
 
 
-s = Sentence("La la la testing out.")
+if __name__ == "__main__":
+    s = Sentence("Here is a great, longer sentence worth testing.")
 
-print(s.get_all_words())
-print(s.get_word(3))
-print(s.get_word(5))
-print(s.set_word(5, "newword"))
-print(s.get_word(3))
-print(s)
+    s.set_word(2, "fun")
+    assert s.get_word(2) == "fun", "set_word failed"
+
+    scrambled = s.scramble()
+
+    print("Sentence unit test successful")
+    print("Original sentence:", s)
+    print("Scrambled sentence:", scrambled)
+    print("Final sentence:", s)
