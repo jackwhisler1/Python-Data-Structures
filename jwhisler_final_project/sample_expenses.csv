@@ -1,0 +1,30 @@
+id,date,category,description,amount
+1,10-01-2025,Housing,Monthly rent payment,1250.0
+2,10-02-2025,Utilities,Electric bill - September,89.45
+3,10-03-2025,Food,Grocery shopping at Whole Foods,156.78
+4,10-05-2025,Transportation,Gas fill-up,52.3
+5,10-07-2025,Food,Dinner at Italian restaurant,87.5
+6,10-08-2025,Entertainment,Movie tickets and snacks,45.0
+7,10-10-2025,Medical,Prescription medication,28.95
+8,10-11-2025,Clothing,New work shoes,79.99
+9,10-12-2025,Food,Lunch with colleagues,32.5
+10,10-13-2025,Utilities,Internet bill - October,69.99
+11,10-14-2025,Transportation,Car insurance payment,145.0
+12,10-15-2025,Personal,Haircut and styling,45.0
+13,10-16-2025,Food,Grocery shopping at Trader Joe's,123.45
+14,10-17-2025,Entertainment,Concert tickets,95.0
+15,10-18-2025,Household items,Kitchen utensils and storage,67.89
+16,10-19-2025,Food,Coffee and pastries,18.75
+17,10-20-2025,Education,Online course subscription,49.99
+18,10-21-2025,Transportation,Uber rides,34.5
+19,10-22-2025,Food,Takeout pizza night,42.0
+20,10-23-2025,Utilities,Water bill - October,45.6
+21,10-24-2025,Medical,Doctor visit copay,35.0
+22,10-25-2025,Entertainment,Streaming service subscription,15.99
+23,10-26-2025,Food,Grocery shopping weekly,98.32
+24,10-27-2025,Clothing,Casual shirts,54.99
+25,10-28-2025,Personal,Gym membership,59.0
+26,10-29-2025,Household items,Cleaning supplies,31.45
+27,10-30-2025,Food,Restaurant brunch,56.8
+28,10-31-2025,Other,Halloween decorations,23.5
+29,10-16-2025,Clothing,new sweatshirt,49.99
